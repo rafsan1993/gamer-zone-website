@@ -10,13 +10,6 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
-.container{
-    width: 1024px;
-    margin: 0 auto;
-}
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
 
 li{
     list-style: none;
@@ -26,14 +19,11 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 .container{
     width: 1024px;
     margin: 0 auto;
 }
 
-=======
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
 .btn{
     border: none;
     border-radius: 40px;
@@ -49,11 +39,19 @@ a{
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
 /* header section starts here  */
+
+.menu-btn{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: none;
+   
+}
 
 .nav-container{
     background-color:#FFF;
@@ -61,11 +59,6 @@ a{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-<<<<<<< HEAD
-=======
-    height: 130px;
-    width: auto;
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
 }
 
 .logo-container{
@@ -99,10 +92,12 @@ a{
     font-weight: 500;
     list-style: none;
     display:flex;
+    align-items: center;
     gap: 30px;
     cursor: pointer;
     
 }
+
 
 /* Banner Section Starts  */
 
@@ -114,10 +109,6 @@ a{
 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
 .banner-container::before{
     content: '';
     position: absolute;
@@ -132,12 +123,8 @@ a{
 }
 
 .banner-img{
-    width: 550px;
-<<<<<<< HEAD
-    height: 740px;
-=======
-    height: 700px;
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
+    width: 400px;
+    height: 472px;
 }
 
 .banner-box h3{
@@ -166,7 +153,6 @@ a{
 
 .ri-download-2-line{
     color: #F948B2;
-<<<<<<< HEAD
 }
 
 /* banner section End  */
@@ -237,13 +223,15 @@ a{
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
+    margin-top: 40px;
     
    
 }
 .grid-text-container p{
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -337,8 +325,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #0B0223;
     color: white;
+    padding: 80px 0;
 }
 
 .logo-container{
@@ -368,12 +356,18 @@ a{
     align-items: center;
     font-size: 12px;
     gap: 30px;
+    color: rgba(255, 255, 255, 0.60);
 }
 .footer-end{
     font-size: 12px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.60);
 
+}
+
+footer{
+    background: #0B0223;
 }
             
 
@@ -428,6 +422,3 @@ a{
     
 }
 
-=======
-}
->>>>>>> a040f2c1f45215f9bd365c5be5c0adb99da37240
